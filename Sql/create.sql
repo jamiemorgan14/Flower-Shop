@@ -13,13 +13,13 @@ USE flowershop1;
   PRIMARY KEY (id)
 ); */
 
-CREATE TABLE inventory (
+/* CREATE TABLE inventory (
   id int NOT NULL AUTO_INCREMENT,
-  bouquetId VARCHAR(255) NOT NULL,
+  bouquetId int NOT NULL,
   flowerId VARCHAR(255) NOT NULL,
   PRIMARY KEY (id),
   FOREIGN KEY (bouquetId) REFERENCES bouquets(id),
   FOREIGN KEY (flowerId) REFERENCES flowers(id)
-);
+); */
 
 
